@@ -1,0 +1,126 @@
+<!--
+  BLOG POST TEMPLATE
+  ===================
+  1. Copy this file to blog/your-post-slug.html (use a short, descriptive,
+     hyphenated slug — it becomes part of the URL).
+  2. Replace everything in [BRACKETS] below, in both languages.
+  3. Update <title>, meta description, the JSON-LD block, and the H1/dek/body.
+  4. Add a card for this post in blog/index.html's <div class="blog-grid">.
+  5. Add the new post's URL to sitemap.xml at the site root.
+  6. In the new file, replace the noindex meta tag below with a canonical
+     tag instead: <link rel="canonical" href="https://bridgebee.global/blog/your-post-slug.html">
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[POST TITLE] — BridgeBee Global Blog</title>
+<meta name="description" content="[ONE-SENTENCE SUMMARY FOR SEARCH RESULTS]">
+<meta name="robots" content="noindex">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "[POST TITLE]",
+  "description": "[ONE-SENTENCE SUMMARY]",
+  "author": { "@type": "Organization", "name": "BridgeBee Global" },
+  "publisher": { "@type": "Organization", "name": "BridgeBee Global", "logo": "https://bridgebee.global/assets/logo-full-purple.png" },
+  "datePublished": "[YYYY-MM-DD]",
+  "inLanguage": "en"
+}
+</script>
+</head>
+<body data-lang="en">
+
+<header>
+  <a href="../index.html"><img src="../assets/logo-full-purple.png" alt="BridgeBee Global" class="logo-mark"></a>
+  <div class="mobile-nav-links">
+    <nav>
+      <a href="../index.html#about"><span data-en>About</span><span data-ja>会社概要</span></a>
+      <a href="../index.html#services"><span data-en>What We Do</span><span data-ja>サービス</span></a>
+      <a href="../index.html#process"><span data-en>How It Works</span><span data-ja>プロセス</span></a>
+      <a href="../resources.html"><span data-en>Resources</span><span data-ja>リソース</span></a>
+      <a href="../index.html#contact"><span data-en>Contact</span><span data-ja>お問い合わせ</span></a>
+    </nav>
+  </div>
+  <div style="display:flex; align-items:center; gap:16px;">
+    <div class="lang-toggle">
+      <button id="btn-en" class="active" onclick="setLang('en')">EN</button>
+      <button id="btn-ja" onclick="setLang('ja')">JA</button>
+    </div>
+    <a href="../index.html#contact" class="cta-nav" style="display:inline-block;"><span data-en>Get in Touch</span><span data-ja>お問い合わせ</span></a>
+  </div>
+</header>
+
+<main>
+  <article class="article">
+    <a href="index.html" class="article-back">
+      <span data-en>← Back to Blog</span>
+      <span data-ja>← ブログ一覧へ戻る</span>
+    </a>
+
+    <div class="article-meta">
+      <span data-en>[MONTH YEAR]</span>
+      <span data-ja>[年月]</span>
+    </div>
+
+    <h1>
+      <span data-en>[POST TITLE]</span>
+      <span data-ja>[記事タイトル]</span>
+    </h1>
+
+    <p class="article-dek">
+      <span data-en>[One or two sentence summary shown under the title.]</span>
+      <span data-ja>[タイトル下に表示される1〜2文の要約]</span>
+    </p>
+
+    <div class="article-body">
+      <p>
+        <span data-en>[Opening paragraph. Keep sections short and self-contained — each one should be able to stand alone as a direct answer, since AI answer engines often quote individual paragraphs rather than the whole page.]</span>
+        <span data-ja>[導入段落。各セクションは短く自己完結させてください。AI検索エンジンはページ全体ではなく、個々の段落を引用することが多いためです。]</span>
+      </p>
+
+      <h2>
+        <span data-en>[Subheading]</span>
+        <span data-ja>[小見出し]</span>
+      </h2>
+      <p>
+        <span data-en>[Body paragraph.]</span>
+        <span data-ja>[本文]</span>
+      </p>
+
+      <h2>
+        <span data-en>[Subheading]</span>
+        <span data-ja>[小見出し]</span>
+      </h2>
+      <p>
+        <span data-en>[Body paragraph.]</span>
+        <span data-ja>[本文]</span>
+      </p>
+    </div>
+  </article>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <img src="../assets/logo-full-white.png" alt="BridgeBee Global">
+    <p>BridgeBee Global © 2026. Tokyo. hiro@bridgebee.global</p>
+  </div>
+</footer>
+
+<script src="../assets/lang.js"></script>
+<script>
+  const saved = localStorage.getItem('bridgebee-lang');
+  setLang(saved === 'ja' ? 'ja' : 'en');
+</script>
+
+</body>
+</html>

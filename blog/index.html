@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — BridgeBee Global</title>
+<meta name="description" content="Articles on Japanese consumer brands expanding overseas — market entry, localization, logistics, and demand generation.">
+<link rel="canonical" href="https://bridgebee.global/blog/">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body data-lang="en">
+
+<header>
+  <a href="../index.html"><img src="../assets/logo-full-purple.png" alt="BridgeBee Global" class="logo-mark"></a>
+  <div class="mobile-nav-links">
+    <nav>
+      <a href="../index.html#about"><span data-en>About</span><span data-ja>会社概要</span></a>
+      <a href="../index.html#services"><span data-en>What We Do</span><span data-ja>サービス</span></a>
+      <a href="../index.html#process"><span data-en>How It Works</span><span data-ja>プロセス</span></a>
+      <a href="../resources.html"><span data-en>Resources</span><span data-ja>リソース</span></a>
+      <a href="../index.html#contact"><span data-en>Contact</span><span data-ja>お問い合わせ</span></a>
+    </nav>
+  </div>
+  <div style="display:flex; align-items:center; gap:16px;">
+    <div class="lang-toggle">
+      <button id="btn-en" class="active" onclick="setLang('en')">EN</button>
+      <button id="btn-ja" onclick="setLang('ja')">JA</button>
+    </div>
+    <a href="../index.html#contact" class="cta-nav" style="display:inline-block;"><span data-en>Get in Touch</span><span data-ja>お問い合わせ</span></a>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <div class="eyebrow">
+        <span data-en>BLOG</span>
+        <span data-ja>ブログ</span>
+      </div>
+      <h1>
+        <span data-en>Notes on Building Global Brands</span>
+        <span data-ja>グローバルブランド構築についての知見</span>
+      </h1>
+      <p class="lede">
+        <span data-en>Articles on market entry, localization, logistics, and demand generation for Japanese consumer brands going overseas.</span>
+        <span data-ja>日本の消費者ブランドの海外展開に関する、市場参入・ローカライゼーション・物流・需要創出についての記事。</span>
+      </p>
+    </div>
+  </section>
+
+  <section class="resources-section">
+    <!--
+      HOW TO ADD A POST:
+      1. Copy blog/template.html to a new file, e.g. blog/market-entry-checklist.html
+      2. Fill in the title, date, and body content (EN + JA) in that file.
+      3. Add a card for it below, inside <div class="blog-grid">, following the
+         commented-out example card.
+      4. Add the new post URL to sitemap.xml at the site root.
+    -->
+    <div class="blog-grid">
+      <a href="seo-content-generator-japanese-brands-southeast-asia.html" class="blog-card">
+        <span class="blog-meta"><span data-en>Aug 2026 · Market Entry & SEO</span><span data-ja>2026年8月 · 市場参入 & SEO</span></span>
+        <h3><span data-en>The 0-to-1 Playbook: A Content Generator for SEO to Scale Japanese Brands in Southeast Asia</span><span data-ja>0→1プレイブック：東南アジアで日本ブランドをスケールするSEOコンテンツジェネレーター</span></h3>
+        <p><span data-en>Localized keyword packs, plug-and-play marketplace listing templates, and an AI+human transcreation workflow for launching on Shopee, Lazada, and Tokopedia.</span><span data-ja>Shopee・Lazada・Tokopediaへの出品に向けた、ローカライズドキーワードパック、そのまま使える出品テンプレート、AI+人間のトランスクリエーション・ワークフロー。</span></p>
+      </a>
+      <!--
+      <a href="market-entry-checklist.html" class="blog-card">
+        <span class="blog-meta">Aug 2026</span>
+        <h3><span data-en>Post Title</span><span data-ja>記事タイトル</span></h3>
+        <p><span data-en>One or two sentence summary of the post.</span><span data-ja>記事の要約を1〜2文で。</span></p>
+      </a>
+      -->
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <img src="../assets/logo-full-white.png" alt="BridgeBee Global">
+    <p>BridgeBee Global © 2026. Tokyo. hiro@bridgebee.global</p>
+  </div>
+</footer>
+
+<script src="../assets/lang.js"></script>
+<script>
+  const saved = localStorage.getItem('bridgebee-lang');
+  setLang(saved === 'ja' ? 'ja' : 'en');
+</script>
+
+</body>
+</html>

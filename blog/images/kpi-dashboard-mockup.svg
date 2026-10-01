@@ -1,0 +1,62 @@
+<svg viewBox="0 0 1200 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="kpiTitle">
+  <title id="kpiTitle">Mockup of a content ROI KPI dashboard showing keyword rank, click-through rate, conversion rate, and revenue per listing</title>
+  <rect width="1200" height="520" rx="24" fill="#FFFFFF" stroke="#E7E1F3" stroke-width="2"/>
+
+  <!-- header bar -->
+  <rect x="0" y="0" width="1200" height="64" rx="24" fill="#6414DC"/>
+  <rect x="0" y="40" width="1200" height="24" fill="#6414DC"/>
+  <text x="32" y="40" font-family="Space Grotesk, Arial, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Content ROI Dashboard</text>
+  <text x="1000" y="40" font-family="Inter, Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.8)">Q1 · Thailand</text>
+
+  <!-- KPI cards row -->
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(32,96)">
+      <rect width="255" height="130" rx="16" fill="#F8F4FF" stroke="#E7E1F3"/>
+      <text x="20" y="34" font-size="13" fill="#5B5370" letter-spacing="0.5">KEYWORD RANK</text>
+      <text x="20" y="82" font-family="Space Grotesk, Arial, sans-serif" font-weight="700" font-size="34" fill="#6414DC">#3</text>
+      <text x="20" y="108" font-size="13" fill="#ED7D31">↑ from #18</text>
+    </g>
+    <g transform="translate(313,96)">
+      <rect width="255" height="130" rx="16" fill="#F8F4FF" stroke="#E7E1F3"/>
+      <text x="20" y="34" font-size="13" fill="#5B5370" letter-spacing="0.5">CLICK-THROUGH RATE</text>
+      <text x="20" y="82" font-family="Space Grotesk, Arial, sans-serif" font-weight="700" font-size="34" fill="#6414DC">6.4%</text>
+      <text x="20" y="108" font-size="13" fill="#ED7D31">↑ +2.1pt</text>
+    </g>
+    <g transform="translate(594,96)">
+      <rect width="255" height="130" rx="16" fill="#F8F4FF" stroke="#E7E1F3"/>
+      <text x="20" y="34" font-size="13" fill="#5B5370" letter-spacing="0.5">CONVERSION RATE</text>
+      <text x="20" y="82" font-family="Space Grotesk, Arial, sans-serif" font-weight="700" font-size="34" fill="#6414DC">+35%</text>
+      <text x="20" y="108" font-size="13" fill="#ED7D31">vs. baseline</text>
+    </g>
+    <g transform="translate(875,96)">
+      <rect width="293" height="130" rx="16" fill="#F8F4FF" stroke="#E7E1F3"/>
+      <text x="20" y="34" font-size="13" fill="#5B5370" letter-spacing="0.5">REVENUE / LISTING</text>
+      <text x="20" y="82" font-family="Space Grotesk, Arial, sans-serif" font-weight="700" font-size="34" fill="#6414DC">4.2x</text>
+      <text x="20" y="108" font-size="13" fill="#ED7D31">publishing speed</text>
+    </g>
+  </g>
+
+  <!-- chart panel -->
+  <g transform="translate(32,254)">
+    <rect width="1136" height="234" rx="16" fill="#FFFFFF" stroke="#E7E1F3"/>
+    <text x="24" y="34" font-family="Inter, Arial, sans-serif" font-size="14" fill="#5B5370" letter-spacing="0.5">CONVERSION RATE OVER TIME</text>
+
+    <!-- bars -->
+    <g fill="#E7E1F3">
+      <rect x="60" y="150" width="70" height="60"/>
+      <rect x="180" y="130" width="70" height="80"/>
+      <rect x="300" y="110" width="70" height="100"/>
+      <rect x="420" y="90" width="70" height="120"/>
+    </g>
+    <g fill="#6414DC">
+      <rect x="540" y="70" width="70" height="140"/>
+      <rect x="660" y="55" width="70" height="155"/>
+      <rect x="780" y="40" width="70" height="170"/>
+      <rect x="900" y="30" width="70" height="180"/>
+    </g>
+    <line x1="40" y1="210" x2="1100" y2="210" stroke="#E7E1F3" stroke-width="2"/>
+    <text x="60" y="228" font-family="Inter, Arial, sans-serif" font-size="12" fill="#5B5370">Pre-launch</text>
+    <text x="900" y="228" font-family="Inter, Arial, sans-serif" font-size="12" fill="#5B5370">Week 12</text>
+    <text x="850" y="24" font-family="Inter, Arial, sans-serif" font-size="12" fill="#ED7D31">After optimized listings ↑</text>
+  </g>
+</svg>

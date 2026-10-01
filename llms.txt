@@ -1,0 +1,15 @@
+# BridgeBee Global
+
+> BridgeBee Global is the operating system that takes Japanese consumer brands from 0 to 1 — and beyond, building the infrastructure for overseas growth.
+
+BridgeBee Global helps Japanese consumer brands (beauty, food & beverage, lifestyle, wellness) launch and scale in overseas markets. Rather than acting as a single-service agency, BridgeBee runs market entry strategy, e-commerce infrastructure, localization and brand adaptation, cross-border logistics and fulfillment, demand generation, and regulatory compliance as one connected system. Engagements are typically structured as an operating vehicle for the brand's international expansion, combining management fees, success fees, and upside participation. BridgeBee is based in Tokyo and works in both English and Japanese.
+
+## Pages
+
+- [Home](https://bridgebee.global/): Company overview, the six service modules, the 0→1→scale process, and contact form.
+- [Resources](https://bridgebee.global/resources): Guides and playbooks on market entry, localization, and fulfillment, plus a frequently-asked-questions section covering engagement model, timelines, and entity structure.
+- [Blog](https://bridgebee.global/blog/): Articles on Japanese brands expanding internationally.
+
+## Contact
+
+- Email: hiro@bridgebee.global

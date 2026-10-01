@@ -1,0 +1,50 @@
+<svg viewBox="0 0 1200 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="workflowTitle">
+  <title id="workflowTitle">The AI plus human transcreation workflow: editorial brief, AI draft, human QA review, then publish</title>
+  <rect width="1200" height="380" rx="24" fill="#F8F4FF"/>
+
+  <!-- connector line -->
+  <line x1="140" y1="170" x2="1060" y2="170" stroke="#E7E1F3" stroke-width="4"/>
+
+  <!-- Step 1 -->
+  <g transform="translate(70,90)">
+    <circle cx="70" cy="80" r="70" fill="#6414DC"/>
+    <text x="70" y="70" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">STEP 1</text>
+    <text x="70" y="98" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#FFFFFF" opacity="0.9">Brief</text>
+    <text x="70" y="195" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-weight="700" font-size="19" fill="#1F1B33">Editorial Brief</text>
+    <text x="70" y="220" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#5B5370">Brand voice + keywords</text>
+  </g>
+
+  <!-- arrow -->
+  <path d="M290 170 L 335 170 L 320 158 M335 170 L320 182" stroke="#ED7D31" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Step 2 -->
+  <g transform="translate(350,90)">
+    <circle cx="70" cy="80" r="70" fill="#8342E3"/>
+    <text x="70" y="70" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">STEP 2</text>
+    <text x="70" y="98" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#FFFFFF" opacity="0.9">AI Draft</text>
+    <text x="70" y="195" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-weight="700" font-size="19" fill="#1F1B33">AI Generation</text>
+    <text x="70" y="220" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#5B5370">Scale across markets</text>
+  </g>
+
+  <path d="M570 170 L 615 170 L 600 158 M615 170 L600 182" stroke="#ED7D31" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Step 3 -->
+  <g transform="translate(630,90)">
+    <circle cx="70" cy="80" r="70" fill="#ED7D31"/>
+    <text x="70" y="70" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">STEP 3</text>
+    <text x="70" y="98" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#FFFFFF" opacity="0.9">Human QA</text>
+    <text x="70" y="195" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-weight="700" font-size="19" fill="#1F1B33">Native Review</text>
+    <text x="70" y="220" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#5B5370">E-E-A-T checklist</text>
+  </g>
+
+  <path d="M850 170 L 895 170 L 880 158 M895 170 L880 182" stroke="#ED7D31" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Step 4 -->
+  <g transform="translate(910,90)">
+    <circle cx="70" cy="80" r="70" fill="#2C1660"/>
+    <text x="70" y="70" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">STEP 4</text>
+    <text x="70" y="98" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#FFFFFF" opacity="0.9">Publish</text>
+    <text x="70" y="195" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-weight="700" font-size="19" fill="#1F1B33">Go Live</text>
+    <text x="70" y="220" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#5B5370">Tracked in KPI dashboard</text>
+  </g>
+</svg>

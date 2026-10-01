@@ -36,13 +36,13 @@
 <body data-lang="en">
 
 <header>
-  <a href='/'><img src="assets/logo-full-purple.png" alt="BridgeBee Global" class="logo-mark"></a>
+  <a href="index.html"><img src="assets/logo-full-purple.png" alt="BridgeBee Global" class="logo-mark"></a>
   <div class="mobile-nav-links">
     <nav>
       <a href="#about"><span data-en>About</span><span data-ja>会社概要</span></a>
       <a href="#services"><span data-en>What We Do</span><span data-ja>サービス</span></a>
       <a href="#process"><span data-en>How It Works</span><span data-ja>プロセス</span></a>
-      <a href='/resources'><span data-en>Resources</span><span data-ja>リソース</span></a>
+      <a href="resources.html"><span data-en>Resources</span><span data-ja>リソース</span></a>
       <a href="#contact"><span data-en>Contact</span><span data-ja>お問い合わせ</span></a>
     </nav>
   </div>
@@ -202,7 +202,7 @@
         <p data-en>Tell us about your brand — we'll tell you what it takes to launch it overseas.</p>
         <p data-ja>ブランドについてお聞かせください。海外展開に必要なことをご提案します。</p>
       </div>
-      <form method='POST' name='contact'>
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact">
         <p style="display:none;"><label>Don't fill this out: <input name="bot-field"></label></p>
         <input type="text" name="name" data-en-ph="Your name" data-ja-ph="お名前" required>

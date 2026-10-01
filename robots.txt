@@ -1,0 +1,50 @@
+# BridgeBee Global — robots.txt
+# Default: allow everything. This is a marketing site with no private
+# areas, so there's no reason to block standard search crawlers.
+User-agent: *
+Allow: /
+
+# --- AI answer-engine / retrieval crawlers ---
+# Explicitly allowed so BridgeBee Global can be cited in AI-generated
+# answers (ChatGPT, Claude, Perplexity, Google AI Overviews, etc.).
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# NOTE: If you'd rather keep your content out of model *training* data
+# while still allowing it to appear in real-time AI search answers,
+# change the training-focused bots above (GPTBot, ClaudeBot,
+# Google-Extended, CCBot) to "Disallow: /" and leave the
+# search/retrieval bots (OAI-SearchBot, ChatGPT-User, Claude-SearchBot,
+# PerplexityBot) allowed. This file currently allows both.
+
+Sitemap: https://bridgebee.global/sitemap.xml
